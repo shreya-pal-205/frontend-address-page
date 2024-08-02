@@ -1,0 +1,96 @@
+*{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aquamarine;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: #fff;
+    height: 75%;
+    width: 80%;
+    display: flex;
+    box-shadow: 6px 8px 18px black;
+
+}
+.sidebar{
+    background-color: white;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.main-content{
+    background-color: white;
+    flex: 1;
+}
+.logo{
+    margin-bottom: 2rem;
+}
+.logo i{
+    font-size: 2rem;
+    color: rgb(86, 9, 86);
+}
+.logo p{
+    margin-top: 0.5rem;
+    opacity: 0.7;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    gap: 1rem;
+}
+.form .box{
+    height: 3rem;
+    border-radius: 0.25rem;
+    border: none;
+    padding: 0.25rem;
+    background-color:  rgb(231, 193, 246, 0.6);
+    font-size: 1.25rem;
+}
+
+.form .bigbox{
+    height: 6rem;
+    border-radius: 0.25rem;
+    border: none;
+    padding: 0.25rem;
+    background-color: rgb(231, 193, 246, 0.6);
+}
+.writing{
+    margin: 1rem 2rem 1rem 2rem;
+}
+.writing p{
+    margin-top: 1rem;
+    font-size: 1.25rem;
+}
+.writing h1{
+    font-weight: 700;
+    color: rgb(86, 9, 86);;
+}
+.btn{
+    margin-left: 2rem;
+    width: 7rem;
+    height: 2.5rem;
+    margin-top: -1.75rem;
+    border-radius: 0.25rem;
+    background-color:rgb(86, 9, 86);
+    color: white;
+    border: none;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(198, 149, 243);
+    border: 3px solid rgb(86, 9, 86);
+    color:rgb(86, 9, 86);
+}
